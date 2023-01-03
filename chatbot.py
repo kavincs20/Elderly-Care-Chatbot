@@ -47,6 +47,8 @@ def check_all_messages(message):
     response('i dont have any human emotions',['did','you','ever','love','someone?'],required_words=['love'])
     response('calling boss...',['call','my','son'],single_response=True)
     response('please wait i will bring you a water',['thirsty'],single_response=True)
+    response('Here is the solution',['solve','sudoko'],single_response=True)
+
 
     # Longer responses
     response(long.R_ADVICE, ['give', 'advice'], required_words=['advice'])
